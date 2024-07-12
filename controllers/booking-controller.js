@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Bookings from "../models/Bookings";
+import Bookings from "../models/Bookings.js";
 import Tour from "../models/Tour.js";
 import User from "../models/User.js";
 
