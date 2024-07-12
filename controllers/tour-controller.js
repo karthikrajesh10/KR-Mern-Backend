@@ -1,7 +1,8 @@
 import jwt from 'jsonwebtoken';
-import Tour from '../models/Tour';
-import Admin from '../models/Admin';
 import mongoose from 'mongoose';
+import Tour from '../models/Tour.js';
+import Admin from '../models/Admin.js';
+
 
 export const addTour = async (req, res, next) => {
     const authHeader = req.headers.authorization;
